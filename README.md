@@ -49,6 +49,38 @@ systemctl daemon-reload
 systemctl restart agave-validator.service
 ```
 
+## 🛠️ Required Libraries & Installation
+
+To run the provided monitoring and management scripts (`healthcheck.sh`, `monitor.sh`, `restart-agave-validator.sh`), make sure the following packages are installed on your system:
+
+### 📦 Required Packages
+
+| Package      | Purpose                                |
+|--------------|----------------------------------------|
+| `sysstat`    | For `mpstat`, CPU load stats           |
+| `jq`         | JSON parsing in Bash                   |
+| `iostat`     | Disk I/O performance stats             |
+| `fio`        | Disk benchmarking (RAID performance)   |
+| `net-tools`  | IP and interface-related commands      |
+| `ifstat`     | Real-time network usage (optional)     |
+| `lm-sensors` | CPU temperature monitoring (optional)  |
+| `bc`         | Floating point arithmetic in shell     |
+| `curl`       | HTTP requests to Solana RPC            |
+
+### 🧪 Install All at Once (Ubuntu/Debian)
+
+```bash
+sudo apt update && sudo apt install -y \
+  sysstat \
+  jq \
+  iostat \
+  fio \
+  net-tools \
+  ifstat \
+  lm-sensors \
+  bc \
+  curl
+
 ---
 
 ## 🧪 Example Usage (PowerShell)
