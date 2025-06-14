@@ -83,7 +83,7 @@ sudo apt update && sudo apt install -y \
 ```
 ---
 
-## 🧪 Example Usage (PowerShell)
+## 🧪 Test RPC Health (PowerShell)
 
 ```powershell
 $body = @{
