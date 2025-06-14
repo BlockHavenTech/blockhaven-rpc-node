@@ -168,6 +168,7 @@ $body = @{
 $response = Invoke-RestMethod -Uri "https://solana-us.blockhaven.tech" -Method Post -Body $body -ContentType "application/json"
 $response
 ```
+> 💡 Replace `https://solana-us.blockhaven.tech` with the correct rpc endpoint.
 
 ---
 
