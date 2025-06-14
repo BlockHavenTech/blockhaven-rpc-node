@@ -30,7 +30,10 @@
 
 ---
 
+
 ## 📂 Scripts Included
+
+> ⚙️ These helper tools are built for Solana RPC node deployers — making monitoring and management faster, cleaner, and more automated.
 
 ### 🔍 `healthcheck.sh`
 
