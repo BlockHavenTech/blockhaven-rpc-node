@@ -1,5 +1,5 @@
 
-# 🔗 BlockHaven Solana RPC — Powered by $BLOCK
+# 🔗 BlockHaven Solana RPC, Powered by $BLOCK
 
 🚀 **High-performance, low-latency Solana RPC endpoint** designed for traders, devs & power users.
 
@@ -24,7 +24,7 @@
 |---------------|----------------------------------------------------|
 | CPU           | AMD EPYC 7443P (24 cores / 48 threads)             |
 | Memory        | 1TB ECC RAM                                        |
-| Ledger Disk   | 8x NVMe RAID0 — ultra-fast ledger/account access   |
+| Ledger Disk   | 8x NVMe RAID0, ultra-fast ledger/account access   |
 | OS/WAL        | 480GB SATA SSD + WAL in `tmpfs` for max IOPS       |
 | Network       | 10Gbps unmetered dedicated uplink                  |
 
@@ -33,7 +33,7 @@
 
 ## 📂 Scripts Included
 
-> ⚙️ These helper tools are built for Solana RPC node deployers — making monitoring and management faster, cleaner, and more automated.
+> ⚙️ These helper tools are built for Solana RPC node deployers, making monitoring and management faster, cleaner, and more automated.
 
 ### 🔍 `healthcheck.sh`
 
@@ -175,7 +175,7 @@ $response
 
 We’re building fast, scalable, and token-gated infrastructure for the next wave of Web3 builders.
 
-💜 Powered by $BLOCK — the key to premium access.
+💜 Powered by $BLOCK, the key to premium access.
 
 ---
 
