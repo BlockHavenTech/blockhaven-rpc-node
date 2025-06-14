@@ -80,7 +80,7 @@ sudo apt update && sudo apt install -y \
   lm-sensors \
   bc \
   curl
-
+```
 ---
 
 ## 🧪 Example Usage (PowerShell)
